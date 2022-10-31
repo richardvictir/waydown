@@ -1,0 +1,54 @@
+body{
+  margin:0;
+  background-color:bisque;
+  
+}
+
+
+
+
+img{
+max-width:100%; 
+  
+}
+
+.red{
+height:100vhpx;  
+  width:350px;
+  border:1px solid;
+  border-radius: 20px;
+  color:white;
+  position: absolute;
+  right:350px;
+  top:50px;
+  padding-block:10px;
+  background-color:black;
+}
+
+.glass{
+  position: absolute;
+  left:100px;
+}
+
+a::hover{
+  color:blue;
+  
+}
+
+.golden{
+  padding: 25px;
+}
+
+.foot-main{
+ padding:25px;
+ 
+  display: flex;
+  
+  flex-direction :row;
+width:30px;
+
+}
+
+.Bob{
+  padding:20px;
+}
