@@ -1,20 +1,98 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+h1{font-family:monospace;}
+  .img{width:150px;}
+p{font-size:16px;}
+p{font-family:monospace,san-serif;}
+ .width{width:100px;} 
+.height{height:100px;}
+  .height2{height:150px;}
+.img{border-radius:20%;}
+body{background:linear-gradient(45deg,aquamarine,bisque);
+color:white;
+font-style:serif;
+}
+h1{color:black;}
 
-  <title>React</title>
-  
-<link rel="stylesheet" href="style.css">
-  <script src="//unpkg.com/systemjs@0.19.47/dist/system.js"></script>
-  
-</head>
+.hex{background:rgba(0,0,0,0.5);}
+img{max-width:100%;
+  height:auto;}
 
+footer{background :#B0C4DE;
+color:red;}
+
+nav{
+background :#B0C4DE;
+width:100%;
+height:100px;
+}
+
+nav ul{display:float;}
+nav ul li{display:inline-block;}
+.align{text-align:left;}
+
+.color{color:#CD853F;}
+</style>
+
+<nav class="rz">
+<ul>
+<li><a href="">HOME</a></li>		|		
+			<li><a href="">CONTACT</a></li>	 |
+				<li><a href="#">PORTFOLIO</a></li> |
+				
+</ul>				
+		<input type="text"		placeholder="search" class="align">
+			<button type="submit">SEARCH</button>	
+</nav>
+
+
+
+  <head>
+<h1 class="color"> cho+cho clothing line</h1>
+
+    <br>
+    <p><strong>Here at cho+cho clothing line,we dare to give you the best.🦅</strong></p>
+    <h2 class="color"><strong>DESIGNERS</strong></h2>
+    <figure>
+    <img src="ver1.jpg" alt="blue versace long sleeves" class="width height img"><figcaption>blue versace shirt</figcaption></figure>
+    
+   <figure>
+    <img src="ver2.jpg" alt="green versace gown" class="width height img"><figcaption>green versace gown</figcaption>
+    </figure>
+    
+    <figure>
+    <img src="ver4.jpg" alt="red versace long sleeve" class="width height img">
+    <figcaption>red versace gown</figcaption>
+    </figure>
+    </head>
 <body>
-  <div id="react-app"></div>
-  <!-- Project -->
-  <script src="config.js"></script>
+  <h2 class="color"><strong>create your designer according to your taste</strong></h2>
+  <label for="male">
+    <input id="male" value="male" type="radio" name="gender">male
+    <label for="female">
+      <input id="female" value="female" type="radio" name="gender">female
+      
+    </label>
+  </label>  
+  <h3 class="color">HEIGHT</h3>
+  <label for="height">HEIGHT:
+    <input type="texts" placeholder="height" Required>
+    <button type="submit">submit</button>
+  </label>
+  <h3 class="color">NECK</h3>
+  <label for="neck">NECK:
+    <input type="texts" placeholder="neck" Required> 
+    <button type="submit">submit</button>
+    
+  </label>
+  <h3 class="color">WAIST</h3>
+  <label for="hips/waist">WAIST:
+    <input type="texts" placeholder="hips/waist" Required>
+    <button type="submit">submit</button>
+  </label>
+    
 </body>
-</html>
+<br>
+<br>
+<footer>
